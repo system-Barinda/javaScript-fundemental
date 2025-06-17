@@ -1,3 +1,6 @@
-function removeChar(str) {
-  return str.length <= 2 ? "" : str.slice(1, -1);
+function removeChar(data){
+    return data.slice(2, -2);
+
 }
+const word = "system";
+console.log(removeChar(word));

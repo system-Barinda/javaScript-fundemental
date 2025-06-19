@@ -4,8 +4,8 @@
 // const word = "barinda andaasa myyyaa name isd";
 // console.log(findShort(word));
 
+const word = "myy name ismmmmmm Barinda system sylvere ismmmmm the best software ingeneering inmm developing";
 function findShort(string){
-    return  Math.min(...string.split(' ').map(a => a.length));
+    return Math.min(...string.split(" ").map(str => str.length));
 }
-let word = "my name is barinda system sylvere too";
 console.log(findShort(word));
